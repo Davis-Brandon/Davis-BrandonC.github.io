@@ -20,10 +20,10 @@ header h2 {
 
 
  /* navigation rules here */
- nav {background-color: blue;}
+ nav {background-color:blue;}
  nav ul {margin: 0; padding: 0;}
  nav li {list-style-type: none;}
- nav li.active {background-color: red;}
+ nav li.active {background-color: darkblue;}
  nav a {
      display: block;
      padding: .8rem 0; /* 44 min height */
@@ -31,14 +31,14 @@ header h2 {
      text-align: center;
      text-decoration: none;
  }
-nav a:hover {background-color: red;}
+nav a:hover {background-color: #444;}
 
 /* main rules here */
 main {
     padding: 1rem 2%;
     display: block;
  }
-main h1 {color: blue;}
+main h1 {color: #17a8e4;}
 
 main figure img {width: 100%;}
 main figure{
@@ -51,7 +51,7 @@ main figcaption {text-align: center; font-size: .8rem}
 footer {
     text-align: center;
     padding: 1rem 2%;
-    backround-color: #19a8e4;
+    background-color: Gray;
 }
 
 .clearfix:after {
