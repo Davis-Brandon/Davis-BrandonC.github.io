@@ -8,22 +8,27 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 
 /*----------- HEADER --------------*/
 header {
-    padding: .5rem 2%;
-    background-color: #ddd;
+    padding: .5rem 11%;
+    background-color: deepskyblue;
+    font-family: "Showcard Gothic", Times, serif;
+    text-align: center;
+    
 }
-header img{float: left; margin-right: 10px; width: 100px;}
-header h1 {margin: 0; font-size: 1.3rem; color: navy}
-header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
+header img{float: left; width: 100px;}
+header h1 {margin: 0; font-size: 40px; color: navy}
+header h2 {margin: 0; font-size: 20px; color: navy}
+
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: red;
+    background-color: green;
+    font-family: "Showcard Gothic", Times, serif;
 }
 nav ul {
     list-style-type: none;
@@ -33,24 +38,25 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: black;
-    padding: .5rem 0;
+    color: white;
+    padding: .3rem 0;
     text-decoration: none;
-    font-size: .9rem;
+    font-size: 30px;
     text-align: center;
 }
 
 
 nav ul li a:hover {
-    background-color: #aaa;
-    color: #333;
+    background-color: lawngreen;
+    color: red;
 }
 nav ul li.active a {
-    background-color: navy;
-    color: #fff;
+    background-color: darkgreen;
+    color: white;
 }
 /*----------- MAIN --------------*/
 main {
+    background-color: lawngreen;
     padding: 0 2%;
     min-height: 10rem;
 }
@@ -74,7 +80,7 @@ p {margin: 0; font-weight: normal; font-size: 1rem;}
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: deepskyblue;
     padding: .5rem 2%;
     text-align: center;
     clear: both;
