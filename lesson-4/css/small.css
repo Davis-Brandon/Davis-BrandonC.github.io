@@ -60,24 +60,6 @@ main {
     padding: 0 2%;
     min-height: 10rem;
 }
-main figure.myphoto {
-    width: 50%;
-    margin: 0 0 0 2%;
-    float: right;
-}
-main figure.myphoto img {width: 100%;}
-h1 {color: navy}
-
-h2 {margin: 0; font-size: 1.3rem;}
-h3 {margin: 0; font-weight: normal; font-size: 1rem;}
-
-h4 {padding-top: 25px}
-h4 {margin: 0; font-size: 1.3rem;}
-p {margin: 0; font-weight: normal; font-size: 1rem;}
-
-
-
-
 /*----------- FOOTER --------------*/
 footer {
     background-color: deepskyblue;
