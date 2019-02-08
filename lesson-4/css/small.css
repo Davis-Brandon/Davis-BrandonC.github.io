@@ -8,20 +8,22 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
+    padding: 0px;
+    margin: 0px;
     font-family: "Times New Roman", Times, serif;
 }
 
 
 /*----------- HEADER --------------*/
 header {
-    padding: .5rem %;
+    padding: .5rem 2%;
     background-color: deepskyblue;
     font-family: "Showcard Gothic", Times, serif;
     text-align: center;
     
 }
-header img{margin:auto; float: left; width: 50px;}
-header h1 {margin:auto; font-size: 30px; color: navy}
+header img{margin:auto; float: left; width: 75px;}
+header h1 {margin:auto; font-size: 25px; color: navy}
 header h2 {margin:auto; font-size: 15px; color: navy}
 
 
@@ -41,7 +43,7 @@ nav ul li a {
     color: white;
     padding: .3rem 0;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -56,10 +58,12 @@ nav ul li.active a {
 }
 /*----------- MAIN --------------*/
 main {
+    margin:0px;
+    border:1px black solid;    
     background-color: lawngreen;
     padding: 0 2%;
     min-height: 10rem;
-}
+    }
 /*----------- FOOTER --------------*/
 footer {
     background-color: deepskyblue;
