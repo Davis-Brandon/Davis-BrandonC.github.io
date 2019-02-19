@@ -64,8 +64,8 @@ tr {
     main figure.myphoto3 {width: 50%; float: right;padding-left: 2%;} 
     main figure.myphoto3 img {width:100%;}
     
-    div.herodiv3 section:nth-child(1){width: 50%; float: left}
-    div.herodiv3 section:nth-child(1){width: 50%; float: left; margin-top: 1rem}
+    div.herodiv3 section:nth-child(1){width: 50%; float: left;}
+    div.herodiv3 section:nth-child(2){width: 50%; float: left;}
         
 
 /*----------- FOOTER --------------*/
