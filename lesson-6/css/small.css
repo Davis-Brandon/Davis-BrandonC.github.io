@@ -1,0 +1,140 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: deepskyblue;
+    font-family: "Showcard Gothic", Times, serif;
+    text-align: center;
+    
+}
+header img{margin:auto; float: left; width: 75px;}
+header h1 {margin:auto; font-size: 25px; color: navy; text-align: center;}
+header h2 {margin:auto; font-size: 15px; color: navy; text-align: center;}
+
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: green;
+    font-family: "Showcard Gothic", Times, serif;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: .3rem 0;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+nav ul li a:hover {
+    background-color: lawngreen;
+    color: red;
+}
+nav ul li.active a {
+    background-color: darkgreen;
+    color: white;
+}
+/*----------- MAIN --------------*/
+
+main {
+    margin:0px;
+    border:1px black solid;    
+    background-color: lawngreen;
+    padding: 0 2%;
+    min-height: 10rem;
+}
+
+h1 {
+        font-family: Showcard Gothic;    
+        text-align: left;
+        font-size: 30px;
+        color: navy;
+}
+    
+div.herodiv {
+    position: relative;
+}
+    
+main figure.myphoto2 {
+    margin: 0;
+    width: 100%;
+}
+main figure.myphoto2 img {width: 100%;}
+      
+main figure.myphoto3 {
+    margin: 0;
+    width: 100%;
+}
+
+main figure.myphoto3 img {width: 100%;}
+      
+.weathersummary {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: radial-gradient(lawngreen, darkgreen);
+    border: 1px solid darkgreen;
+    padding: .5rem;
+    box-shadow: 0 0 30px #777;
+    font-family: Showcard Gothic;
+}
+
+h2.hidesmall {display:none;}
+
+table.test123 {display:none;}
+h2 {
+     padding-top: 2rem;   
+     font-family: Showcard Gothic;    
+        text-align: left;
+        font-size: 25px;
+        color: navy;
+        margin: 0px;
+}
+      
+p { margin: 0; font-family: 'Times New Roman', Times, serif }
+h3 {margin: 0; padding-top:2%;}
+
+div.herodiv3 {
+        background-color: aquamarine;
+        padding: 0;
+        margin: 0;
+        clear: both;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: deepskyblue;
+    padding: .5rem 2%;
+    text-align: center;
+    clear: both;
+    margin: 0px;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
