@@ -1,0 +1,76 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+    header h5{padding-bottom: 0rem; font-size: 2rem;}
+    header h6{padding-top: 0rem; font-size: 1.5rem;}
+
+
+/*----------- NAVIGATION --------------*/
+    nav button {display: none;}
+    nav ul.hide {display: block;}
+    nav ul {margin-left: 2%;}
+    nav ul li {float: left;}
+
+    nav ul li a{padding: .5rem 1rem;}
+
+
+/*----------- MAIN --------------*/
+h2.hidesmall {display:block;}
+table.test123 {display:block;}
+    
+h5 {
+        font-family: Showcard Gothic;    
+        text-align: left;
+        font-size: 25px;
+        color: navy;
+        margin:0px;
+        padding-bottom: 2rem;
+    }
+
+th {
+        font-family: Showcard Gothic;    
+        text-align: center;
+        font-size: 20px;
+        color: Black;
+        background-color: darkgreen;
+        
+                       
+    }
+
+tr {
+        font-family: Showcard Gothic;    
+        text-align: left;
+        font-size: 15px;
+        color: Black;
+                                       
+}
+
+
+.herodiv2 {
+            
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+        float: left;
+        width: 100%;
+         }
+                        
+        
+    main figure.myphoto3 {width: 50%; float: right;padding-left: 2%;} 
+    main figure.myphoto3 img {width:100%;}
+    
+    div.herodiv3 section:nth-child(1){width: 50%; float: left;}
+    div.herodiv3 section:nth-child(2){width: 50%; float: left;}
+        
+    div.weatherGallery figure {
+        flex-basis: 46%;
+    }
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
