@@ -38,7 +38,8 @@
     
 <!-- NAVIGATION HERE -->
     <nav class="clearfix">
-        <ul >
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
             <li><a href=index.html>Home</a></li>
             <li class="active"><a href="preston.html">Preston</a></li>
             <li><a href="sodasprings.html">Soda Springs</a></li>
@@ -57,8 +58,10 @@
         
         <div class="herodiv">
             <figure class="myphoto2">
-            <img src="images/preston2.jpeg" alt="pic1">
-                </figure>
+            <img src="images/preston1000.jpg" alt="preston" sizes="100vw"
+                 srcset="images/preston400.jpg 400w,
+                         images/preston1000.jpg 1000w">
+            </figure>
             <section class="weathersummary">
 			<h3>Weather Summary</h3>
             <p>Partly Cloudy</p>
@@ -139,8 +142,13 @@
            
 <!-- FOOTER HERE -->   
     <footer>
-        &copy; 2019 &bull; Brandon Davis &bull; 123-456-7890
+        Brandon Davis &bull;
+        <p>
+<script> document.write(new Date().toLocaleDateString()); </script>
+</p> 
     </footer>
-
+    
+    <script type="text/javascript" src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>

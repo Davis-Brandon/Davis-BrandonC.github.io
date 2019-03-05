@@ -56,6 +56,8 @@ nav ul li.active a {
     background-color: darkgreen;
     color: white;
 }
+nav ul.hide {display: none;}
+
 /*----------- MAIN --------------*/
 
 main {
