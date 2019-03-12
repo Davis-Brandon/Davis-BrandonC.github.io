@@ -17,27 +17,32 @@
 
 
 /*----------- MAIN --------------*/
+thead {font-size: 20px}
 
+table, th, td {
+  border: 2px solid lightgray;
+  padding: .3rem .3rem;
+       }
 
-caption {
-    background-color: #7fb9c2;
-    font-size: 20px;
-    text-align: center;
-    padding: .3rem 0;
-    }
-
-
-table, caption {
+table {
   border-collapse: collapse;
   font-family: Ubuntu, sans-serif;
   text-align: center;
   box-shadow: 5px 5px 5px #628ca6;
     }
 
-table, th, td, caption {
-  border: 1px solid black;
-    padding: .3rem .3rem;
-       }
+th {
+    background-color: #7fb9c2;
+    font-size: 20px; color: white;
+    text-align: center;
+    padding: .3rem .3rem .3rem .3rem;
+    border: 2px solid lightgray;}
+    
+    
+tr:nth-child(even) {background: #e7f0ed}
+tr:nth-child(odd) {background: #e7ffed}
+
+
 
 tfoot {font-size: 12px;}
 
