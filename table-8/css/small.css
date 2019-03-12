@@ -1,0 +1,44 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
+
+/*----------- apply a natural box layout model to all elements --------------*/
+
+
+
+/*----------- BODY --------------*/
+
+/*----------- HEADER --------------*/
+
+
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+
+
+caption {
+    background-color: #7fb9c2;
+    font-size: 20px;
+    text-align: center;
+    padding: .3rem 0;
+    }
+
+
+table, caption {
+  border-collapse: collapse;
+  font-family: Ubuntu, sans-serif;
+  text-align: center;
+  box-shadow: 5px 5px 5px #628ca6;
+    }
+
+table, th, td, caption {
+  border: 1px solid black;
+    padding: .3rem .3rem;
+       }
+
+tfoot {font-size: 12px;}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
