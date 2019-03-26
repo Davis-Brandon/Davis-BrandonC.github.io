@@ -185,7 +185,7 @@ div.townInfo article img {width: 90%; }
 
 form fieldset {
     margin: 2rem 0;
-    border: 1 px solid navy;
+    border: 1px solid navy;
     border-radius: 10px;
     padding: .5rem 2%;
     background-color: lawngreen;
@@ -250,14 +250,14 @@ form input.submitBtn {
     font-weight: Bold;
     }
 
-form label.top inpout:required {
+form label.top input:required {
     border-left: red solid 6px;
 }
 
-form label.top input: required:valid {
+form label.top input:required:valid {
     border-left: green solid 6px;
 }
-*----------- FOOTER --------------*/
+/*----------- FOOTER --------------*/
 footer {
     background-color: deepskyblue;
     padding: .5rem 2%;
