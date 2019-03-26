@@ -29,6 +29,12 @@ img { width: 250px; height: auto; margin: .5rem;}
 figcaption {font-size: smaller;}
 /* hover effect */
 .norm:hover {box-shadow: 0 0 50px #333;}
+    
+.townInfo article {
+        flex-basis: 29%;
+    }    
+/* hover effect */
+.townInfo article:hover {box-shadow: 0 0 50px #333;}   
 /*----------- FOOTER --------------*/
     
 } /* end of media query */

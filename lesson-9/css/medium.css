@@ -71,6 +71,14 @@ tr {
     div.weatherGallery figure {
         flex-basis: 46%;
     }
+    
+     #townInfo article{
+        flex-basis: 46%;
+    }
+   
+     div.townInfo article img {width: 90%; }
+    
+    .townInfo article:hover {box-shadow: 0 0 50px #333;} 
 /*----------- FOOTER --------------*/
     
 } /* end of media query */
