@@ -85,13 +85,13 @@
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
         var myPara3 = document.createElement('p');
-        
-
+       
     myH2.textContent = indtowns[i].name;
     myH3.textContent = indtowns[i].motto;
     myPara1.textContent = 'Year Founded: ' + indtowns[i].yearFounded;
     myPara2.textContent = 'Population: ' + indtowns[i].currentPopulation;
     myPara3.textContent = 'Annual Rain Fall:' + indtowns[i].averageRainfall;
+    
         
     myArticle.appendChild(myH2);
     myArticle.appendChild(myH3);
@@ -99,8 +99,9 @@
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
    
+   
    section.appendChild(myArticle); 
-  }
+     }
 }   
     
     </script>
