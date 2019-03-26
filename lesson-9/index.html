@@ -52,38 +52,59 @@
     
 <!-- CONTENT HERE -->
     <main>
-        <h1>Town Data</h1>
-        <div class="townInfo">
-        <article>
-        <h2>Preston</h2>
-        <p><i>Home of Napoleaon Dynamite.</i></p>
-        <p>Year Founded: 1866</p>
-        <p>Population: 5204</p>
-        <p>Annual Rainfall: 16.65</p>
-        <img src="images/fishhaven.jpg" alt="Fish Haven">
-        </article>
+    <body>
+        
             
-        <article>
-        <h2>Fish Haven</h2>
-        <p><i>This is Fish Heaven.</i></p>
-        <p>Year Founded: 1864</p>
-        <p>Population: 501</p>
-        <p>Annual Rainfall: 14.2</p>
-        <img src="images/fishhaven.jpg" alt="Fish Haven">
-        </article>
-        
-        <article>
-        <h2>Soda Springs</h2>
-        <p><i>Historic Oregon Trail Oasis. The Soda is on Us.</i></p>
-        <p>Year Founded: 1858</p>
-        <p>Population: 2985</p>
-        <p>Annual Rainfall: 15.75</p>
-        <img src="images/sodasprings.jpg" alt="Soda Springs" >
-        </article>
-        </div>
-        
-       
+      <section>
+
+      </section>
+             
+ 
     
+<script>
+    var section = document.querySelector('section');
+    
+    var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    
+     request.onload = function() {
+       var townData = request.response;
+         showTowns(townData);
+         }
+             
+   function showTowns(jsonObj) {
+        var indtowns = jsonObj['towns'];
+      
+    for (var i = 0; i < indtowns.length; i++) {
+        var myArticle = document.createElement('article');
+        var myH2 = document.createElement('h2');
+        var myH3 = document.createElement('h3');
+        var myPara1 = document.createElement('p');
+        var myPara2 = document.createElement('p');
+        var myPara3 = document.createElement('p');
+        
+
+    myH2.textContent = indtowns[i].name;
+    myH3.textContent = indtowns[i].motto;
+    myPara1.textContent = 'Year Founded: ' + indtowns[i].yearFounded;
+    myPara2.textContent = 'Population: ' + indtowns[i].currentPopulation;
+    myPara3.textContent = 'Annual Rain Fall:' + indtowns[i].averageRainfall;
+        
+    myArticle.appendChild(myH2);
+    myArticle.appendChild(myH3);
+    myArticle.appendChild(myPara1);
+    myArticle.appendChild(myPara2);
+    myArticle.appendChild(myPara3);
+   
+   section.appendChild(myArticle); 
+  }
+}   
+    
+    </script>
+        </body>    
     </main>
 <!-- FOOTER HERE -->   
     <footer>

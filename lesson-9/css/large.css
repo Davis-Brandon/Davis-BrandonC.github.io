@@ -30,11 +30,11 @@ figcaption {font-size: smaller;}
 /* hover effect */
 .norm:hover {box-shadow: 0 0 50px #333;}
     
-.townInfo article {
+section article {
         flex-basis: 29%;
     }    
 /* hover effect */
-.townInfo article:hover {box-shadow: 0 0 50px #333;}   
+section article:hover {box-shadow: 0 0 50px #333;}   
 /*----------- FOOTER --------------*/
     
 } /* end of media query */
