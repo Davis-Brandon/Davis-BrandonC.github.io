@@ -54,11 +54,11 @@
     <main>
     <body>
         
-            
+      <div class="town123">      
       <section>
 
       </section>
-             
+        </div>     
  
     
 <script>
@@ -80,21 +80,21 @@
       
     for (var i = 0; i < indtowns.length; i++) {
         var myArticle = document.createElement('article');
-        var myH2 = document.createElement('h2');
-        var myH3 = document.createElement('h3');
+        var myH5 = document.createElement('h5');
+        var myH4 = document.createElement('h4');
         var myPara1 = document.createElement('p');
         var myPara2 = document.createElement('p');
         var myPara3 = document.createElement('p');
        
-    myH2.textContent = indtowns[i].name;
-    myH3.textContent = indtowns[i].motto;
+    myH5.textContent = indtowns[i].name;
+    myH4.textContent = indtowns[i].motto;
     myPara1.textContent = 'Year Founded: ' + indtowns[i].yearFounded;
     myPara2.textContent = 'Population: ' + indtowns[i].currentPopulation;
     myPara3.textContent = 'Annual Rain Fall:' + indtowns[i].averageRainfall;
     
         
-    myArticle.appendChild(myH2);
-    myArticle.appendChild(myH3);
+    myArticle.appendChild(myH5);
+    myArticle.appendChild(myH4);
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);

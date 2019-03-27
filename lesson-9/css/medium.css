@@ -72,13 +72,11 @@ tr {
         flex-basis: 46%;
     }
     
-     section article{
+    div.town123 article{
         flex-basis: 46%;
     }
-   
-     div.townInfo article img {width: 90%; }
-    
-    section article:hover {box-shadow: 0 0 50px #333;} 
+       
+    div.town123 article:hover {box-shadow: 0 0 50px #333;} 
 /*----------- FOOTER --------------*/
     
 } /* end of media query */
