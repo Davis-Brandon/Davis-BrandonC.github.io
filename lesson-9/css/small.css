@@ -155,6 +155,11 @@ div.town123 section {
  
 }
 
+div.town123 article{
+        flex-basis: 96%;
+        margin: 1rem 2%;
+    }
+
 div.town123 article {
     background-color: red;
     margin: 1rem;
