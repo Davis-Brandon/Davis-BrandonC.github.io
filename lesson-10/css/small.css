@@ -104,6 +104,7 @@ main figure.myphoto3 img {width: 100%;}
     padding: .5rem;
     box-shadow: 0 0 30px #777;
     font-family: Showcard Gothic;
+    
 }
 
 h2.hidesmall {display:none;}
@@ -115,11 +116,11 @@ h2 {
      font-family: Showcard Gothic;    
      text-align: left;
      font-size: 25px;
-     color: navy;
+     color: red;
      margin: 0px;
         
 }
-      
+td {text-align: center; font-family: 'Times New Roman', Times, serif; font-weight: bold; color: white;}      
 p { margin: 0; font-family: 'Times New Roman', Times, serif }
 h3 {margin: 0; padding-top:2%;}
 
