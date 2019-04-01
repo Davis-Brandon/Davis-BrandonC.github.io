@@ -1,0 +1,39 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+/*----------- BODY --------------*/
+     
+    /*----------- HEADER --------------*/
+    header h5{padding-bottom: 0rem; font-size: 3rem;}
+    header h6{padding-top: 0rem; margin: 0px; font-size: 2rem;}
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+
+div.weatherGallery figure {
+        flex-basis: 29%;
+    }
+    
+.weatherGallery {margin: 1rem auto; display:grid; grid-template-columns: 1fr 1fr 1fr; max-width: 1048px;}
+
+figcaption {font-size: smaller;}
+/* hover effect */
+.norm:hover {box-shadow: 0 0 50px #333;}
+    
+div.town123 article {
+        flex-basis: 29%;
+    }    
+/* hover effect */
+div.town123 article:hover {box-shadow: 0 0 50px #333;}   
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
