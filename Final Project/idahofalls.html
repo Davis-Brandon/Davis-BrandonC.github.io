@@ -78,17 +78,17 @@
                 </div>
         
         
-     <div class="town123">
+    <div class="test123">
       <section>
 
       </section>
-            </div>    
+         </div>    
  
     
 <script>
     var section = document.querySelector('section');
     
-    var requestURL = 'https://brandoncdavis.github.io/Final%20Project/iftemple.json';
+    var requestURL = 'iftemple.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
@@ -96,10 +96,10 @@
     
      request.onload = function() {
        var scheduleData = request.response;
-         showSchedule(scheduleData);
+         showSchedules(scheduleData);
          }
              
-   function showSchedule(jsonObj) {
+   function showSchedules(jsonObj) {
         var indschedule = jsonObj['schedule'];
       
     for (var i = 0; i < indschedule.length; i++) {
