@@ -50,8 +50,6 @@ tr {
         color: Black;
                                        
 }
-
-
 .herodiv2 {
             
         padding: 0px;
@@ -60,15 +58,44 @@ tr {
         float: left;
         width: 100%;
          }
-                        
+
+.templeschedule {
+            
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+        float: left;
+        width: 100%;
+         }
+    main figure.ifpic1 {width: 50%; float: right;padding-left: 2%;} 
+    main figure.ifpic1 img {width:50;}                    
         
-    main figure.myphoto3 {width: 50%; float: right;padding-left: 2%;} 
-    main figure.myphoto3 img {width:100%;}
+    main figure.slcpic {width: 50%; float: right;padding-left: 2%;} 
+    main figure.slcpic img {width:100%;}
     
-    div.herodiv3 section:nth-child(1){width: 50%; float: left;}
-    div.herodiv3 section:nth-child(2){width: 50%; float: left;}
+    div.herodiv3 section:nth-child(1){width: 33%; float: left;}
+    div.herodiv3 section:nth-child(2){width: 33%; float: left;}
+    div.herodiv3 section:nth-child(3){width: 33%; float: left;}
+    
+    div.templeSchedule section:nth-child(1){width: 50%; float: left;}
+    div.templeSchedule section:nth-child(2){width: 50%; float: left;}
+ 
+/* hover effect */
+.norm:hover {box-shadow: 0 0 50px #333;}
         
-    div.weatherGallery figure {
+    div.templeGallery figure {
+        flex-basis: 46%;
+    }
+    
+    div.suitesGallery figure {
+        flex-basis: 46%;
+    }
+    
+     div.services figure {
+        flex-basis: 46%;
+    }
+    
+    div.services figure {
         flex-basis: 46%;
     }
     

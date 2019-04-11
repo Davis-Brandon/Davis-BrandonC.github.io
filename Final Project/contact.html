@@ -27,6 +27,7 @@
      
 </head>
 <body>
+    
     <!-- HEADER HERE -->
   <header class="clearfix">
     <img src="images/logo.jpg" alt="logo">
@@ -34,7 +35,15 @@
        <h1>Temple Inn & Suites</h1>
        <h2>Temple Trips Made Easy!</h2>
     </div>
-      
+      <section class="weathersummary">
+            <h3>San Deigo Weather</h3>
+			<p><span id=sandiegocurrentconditions></span></p>
+            <p>Current Temperature is <span id=sandiegocurrentTemp>00</span>&deg;</p>
+            <p>Low: <span id=sandiegocurrentlow></span>&deg;</p>
+            <p>High: <span id=sandiegocurrenthigh>00</span>&deg;</p>
+            <p>Windspeed <span id=sandiegocurrentwind></span></p>
+            <img src="images/placeholder.png" alt="current weather" id="weather_icon">
+            </section>
    </header>
     
     
@@ -45,79 +54,46 @@
         <ul id="primaryNav" class="hide">
             <li><a href=index.html>Home</a></li>
             <li><a href="services.html">Services</a></li>
-            <li class="active"><a href="reservation.html">Reservation</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
             <li><a href="idahofalls.html">Idaho Falls</a></li>
             <li><a href="gilbert.html">Gilbert</a></li>
             <li><a href="sandiego.html">San Deigo</a></li>
             <li><a href="bellevue.html">Bellevue</a></li>
-            
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     
     
 <!-- CONTENT HERE -->
     <main>
-        <h1>BOOK A ROOM TODAY</h1>
-        <form method="get" action="confirmation.html">
+        <h1>CONTACT US</h1>
+        <form method="get" action="contactconfirmation.html">
         <fieldset>
             <legend>Personal Information</legend>
             <label class="top">Full Name* <input type="text" name="fullname" minlegth="5" pattern="[A-Za-z].{5,}" required></label>
             <label class="top">Email* <input type="email" name="email" placeholder="someone@something.com" required></label>
             <label class="top">Phone Number* <input type="tel" name="phone" required></label>
-            <label class="top">Home State OR Country* <input type="text" required></label>
         </fieldset>
          
-        <fieldset>
-            <legend>Room Details</legend>
-            <label class="sbs">Arrival Date <input type="date"></label>
-            <label class="sbs">Departure Date <input type="date"></label>
-            <label class="sbs">Room Type: </label>
-            <input name="roomtype" list="roomtypelist">
-            <datalist id="roomtypelist">
-			 <option value="King Bed">
-  	         <option value="2 Queen Beds">
-             <option value="Bedroom Suite (2 queen beds, 1 sofa bed)">
-             <option value="2 Bedroom Suite (1 King Bed, 2 Queen Beds, sofa bed">
-             <option value="Studio (1 Queen bed, 1 pull out sofa)">
-            </datalist>
-           <label class="sbs">Number of Rooms: </label>
-            <input name="numofroomstype" list="numofroomslist">
-            <datalist id="numofroomslist">
-			 <option value="1">
-  	         <option value="2">
-             <option value="3">
-             <option value="4">
-            </datalist>
-             <label class="sbs">Hotel Location</label>
-             <select name="region">
-                 <option value="">Select Location...</option>
-                 <option value="Idaho Falls">Idaho Falls</option>
-                 <option value="Gilbert">Gilbert</option>
-                 <option value="San Deigo">San Diego</option>
-                 <option value="Bellevue">Bellevue</option>
-             </select>
-          
-        </fieldset>
-        <fieldset>
-            <legend>Special Accommodations Or Additional Comments</legend> 
+       <fieldset>
+            <legend>Message</legend> 
             <textarea name="comment" form="usrform"></textarea>   
         </fieldset>
           
 	
-        <input type="submit" value="BOOK ROOM" class="submitBtn">
-    </form>
-    
-        
-        
+        <input type="submit" value="SUBMIT" class="submitBtn">
+       <div class="gmap_canvas">
+        <iframe width="100%" height="500" id="gmap_canvas"
+        src="https://maps.google.com/maps?q=4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div> 
+        </form>
         </main>
            
 <!-- FOOTER HERE -->   
     <footer>
-      &copy; 2019 &bull; Brandon Davis
+        &copy; 2019 &bull; Brandon Davis
+        <p><span>*Weather data provided by openweathermap.org</span></p>
     </footer>
-    
-    <script src="scripts/hamburger.js"></script>
-    
-</body>
+        <script src="scripts/weather3.js"></script>
+    </body>
 </html>

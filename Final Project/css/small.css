@@ -68,7 +68,9 @@ nav ul li.active a {
 nav ul.hide {display: none;}
 
 /*----------- MAIN --------------*/
-
+div.gmap_canvas {
+    padding: 2% 0;<
+}
 main {
     margin:0px;
     border:1px black solid;    
@@ -78,6 +80,8 @@ main {
 }
 
 h1 {padding: 1rem 0; margin: 0px; font-size: 2.5rem; color: dodgerblue; font-family: "Vladimir Script";}
+h3 {padding: 1rem 0; margin: 0px; font-size: 1.5rem; color: dodgerblue; font-family: "Bernard MT Condensed";}
+
 
 h4 {
         font-family: Segoe Script;    
@@ -96,13 +100,19 @@ main figure.myphoto2 {
 }
 main figure.myphoto2 img {width: 100%;}
       
-main figure.myphoto3 {
+main figure.slcpic {
     margin: 0;
     width: 100%;
 }
 
-main figure.myphoto3 img {width: 100%;}
-      
+main figure.slcpic img {width: 100%;}
+
+main figure.ifpic1 {
+    margin: 0;
+    width: 100%;
+}
+
+main figure.ifpic1 img {width: 100%;}
 
     
 }
@@ -122,31 +132,72 @@ h5 {
 }
 td {text-align: center; font-family: 'Times New Roman', Times, serif; font-weight: bold; color: navy;}      
 p { margin: 0; font-family: 'Times New Roman', Times, serif }
-h3 {margin: 0; padding-top:2%;}
+h4 {margin: 0; padding-top:2%;}
 
 div.herodiv3 {
-        background-color: aquamarine;
+        background-color: gold;
         padding: 0;
         margin: 0;
         clear: both;
+        font-family: "Vladimir Script";
 }
 
-div.weatherGallery {
+
+div.templeGallery {
     display: flex;
     flex-wrap: wrap;
 }
 
-div.weatherGallery figure{
+div.templeGallery figure{
     flex-basis: 96%;
     margin: 1rem 2%;
 }
 
-div.weatherGallery figcaption {
+div.templeGallery figcaption {
     margin: 1rem 2%;
 }
 
 
-.weatherGallery figure img{
+div.templeGallery figure img{
+    width: 100%;
+}
+
+
+div.suitesGallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.suitesGallery figure{
+    flex-basis: 96%;
+    margin: 1rem 2%;
+}
+
+div.suitesGallery figcaption {
+    margin: 1rem 2%;
+}
+
+
+div.suitesGallery figure img{
+    width: 100%;
+}
+
+div.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.services figure{
+    flex-basis: 96%;
+    margin: 1rem 2%;
+}
+
+div.services figcaption {
+    margin: 1rem 2%;
+}
+
+
+div.services figure img{
     width: 100%;
 }
 
@@ -212,7 +263,7 @@ form legend {
 
 form label.top, form div {
     display: block;
-    padding-top: 1rem;
+    padding-bottom: 1rem;
     color: dodgerblue;
     font-size: 2rem;
     font-family: "Bernard MT Condensed"
@@ -232,7 +283,7 @@ form label.top input, form label.top select {
 
 form label.sbs {
     display: block;
-    padding-top: 1rem;
+    padding-bottom: 1rem;
     color: dodgerblue;
     font-size: 2rem;
     font-family: "Bernard MT Condensed"
@@ -274,7 +325,7 @@ form label.top input:required:valid {
 }
 /*----------- FOOTER --------------*/
 footer {
-    background-color: deepskyblue;
+    background-color: gold;
     padding: .5rem 2%;
     text-align: center;
     clear: both;
