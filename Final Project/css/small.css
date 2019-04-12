@@ -56,7 +56,6 @@ nav ul li a {
     text-align: center;
 }
 
-
 nav ul li a:hover {
     background-color: whitesmoke;
     color: dodgerblue;
@@ -69,7 +68,7 @@ nav ul.hide {display: none;}
 
 /*----------- MAIN --------------*/
 div.gmap_canvas {
-    padding: 2% 0;<
+    padding: 2% 0;
 }
 main {
     margin:0px;
