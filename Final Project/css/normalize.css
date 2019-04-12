@@ -64,6 +64,7 @@ main {
     padding: 0 2%;
     min-height: 10rem;
     }
+header h4 {margin:auto; font-size: 25px; color: navy}
 /*----------- FOOTER --------------*/
 footer {
     background-color: gold;

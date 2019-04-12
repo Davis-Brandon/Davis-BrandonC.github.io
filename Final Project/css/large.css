@@ -41,6 +41,7 @@ figcaption {font-size: smaller;}
 /* hover effect */
 .norm:hover {box-shadow: 0 0 50px #333;}
     
+    }
 /*----------- FOOTER --------------*/
-}
-/* end of media query */
+    
+ /* end of media query */
