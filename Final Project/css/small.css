@@ -16,7 +16,7 @@ body {
 
 /*----------- HEADER --------------*/
 header {
-    padding-top: .5rem 2%;
+    padding-top: 1 rem 2%;
     background-color: black;
     font-family: "Vladimir Script";
     text-align: left;
@@ -30,7 +30,7 @@ header h2 {padding-top: 0rem; margin: 0px; font-size: .75rem; color: gold;}
 
 .weathersummary {
     float: right;
-    padding-top: .5rem 2%;
+    padding-top: 1rem 2%;
     background: black;
     font-family: "Bernard MT Condensed";
     color: gold;
@@ -39,7 +39,7 @@ header h2 {padding-top: 0rem; margin: 0px; font-size: .75rem; color: gold;}
 /*----------- NAVIGATION --------------*/
 nav {
     background-color: gold;
-    font-family: "Bernard MT Condensed"
+    font-family: "Bernard MT Condensed";
 }
 nav ul {
     list-style-type: none;
@@ -67,6 +67,8 @@ nav ul li.active a {
 nav ul.hide {display: none;}
 
 /*----------- MAIN --------------*/
+header h4 {margin: 0px; font-size: 1rem; color: gold;}
+
 div.gmap_canvas {
     padding: 2% 0;
 }
