@@ -21,36 +21,8 @@
 
 
 /*----------- MAIN --------------*/
-h5.hidesmall {display:block;}
-table.test123 {display:block;}
-    
-h5 {
-        font-family: Showcard Gothic;    
-        text-align: left;
-        font-size: 25px;
-        color: navy;
-        margin:0px;
-        padding-bottom: 2rem;
-    }
 
-th {
-        font-family: Showcard Gothic;    
-        text-align: center;
-        font-size: 20px;
-        color: Black;
-        background-color: darkgreen;
-        
-                       
-    }
-
-tr {
-        font-family: Showcard Gothic;    
-        text-align: left;
-        font-size: 15px;
-        color: Black;
-                                       
-}
-.herodiv2 {
+.saltlake {
             
         padding: 0px;
         margin: 0px;
@@ -85,9 +57,9 @@ tr {
     main figure.bellevue2 {width: 50%; float: right;padding-left: 2%;} 
     main figure.bellevue2 img {width:100%;}
     
-    div.herodiv3 section:nth-child(1){width: 33%; float: left;}
-    div.herodiv3 section:nth-child(2){width: 33%; float: left;}
-    div.herodiv3 section:nth-child(3){width: 33%; float: left;}
+    div.contactinfo section:nth-child(1){width: 33%; float: left;}
+    div.contactinfo section:nth-child(2){width: 33%; float: left;}
+    div.contactinfo section:nth-child(3){width: 33%; float: left;}
     
     div.templeSchedule section:nth-child(1){width: 50%; float: left;}
     div.templeSchedule section:nth-child(2){width: 50%; float: left;}
@@ -110,12 +82,6 @@ tr {
     div.services figure {
         flex-basis: 46%;
     }
-    
-    div.town123 article{
-        flex-basis: 46%;
-    }
-       
-    div.town123 article:hover {box-shadow: 0 0 50px #333;} 
 /*----------- FOOTER --------------*/
     
 } /* end of media query */
