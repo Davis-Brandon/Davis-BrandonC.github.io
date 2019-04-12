@@ -116,50 +116,6 @@
       </section>
          </div>    
  
-    
-<script>
-    var section = document.querySelector('section');
-    
-    var requestURL = 'iftemple.json';
-    var request = new XMLHttpRequest();
-    request.open('GET', requestURL);
-    request.responseType = 'json';
-    request.send();
-    
-     request.onload = function() {
-       var scheduleData = request.response;
-         showSchedules(scheduleData);
-         }
-             
-   function showSchedules(jsonObj) {
-        var indschedule = jsonObj['schedule'];
-      
-    for (var i = 0; i < indschedule.length; i++) {
-        var myArticle = document.createElement('article');
-        var myH5 = document.createElement('h5');
-        var myH4 = document.createElement('h4');
-        var myPara1 = document.createElement('p');
-        var myPara2 = document.createElement('p');
-        var myPara3 = document.createElement('p');
-       
-    myH5.textContent = indschedule[i].name;
-    myH4.textContent = indschedule[i].address;
-    myPara1.textContent = 'Telephone Number: ' + indschedule[i].telephoneNumber;
-    myPara2.textContent = 'Services: ' + indschedule[i].services;
-    myPara3.textContent = 'Baptism Schedule:' + indschedule[i].Baptismalschedule;
-    
-        
-    myArticle.appendChild(myH5);
-    myArticle.appendChild(myH4);
-    myArticle.appendChild(myPara1);
-    myArticle.appendChild(myPara2);
-    myArticle.appendChild(myPara3);
-   
-   
-   section.appendChild(myArticle); 
-     }
-}
-            </script>
         </main>
            
 <!-- FOOTER HERE -->   
