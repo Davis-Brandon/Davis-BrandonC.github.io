@@ -96,13 +96,72 @@ div.herodiv {
 div.idahofalls {
     position: relative;
 }
-    
-main figure.myphoto2 {
+
+main figure.idahofalls1 {
     margin: 0;
     width: 100%;
 }
-main figure.myphoto2 img {width: 100%;}
-      
+main figure.idahofalls1 img {width: 100%;}
+
+div.gilbert {
+    position: relative;
+}
+
+main figure.gilbert1 {
+    margin: 0;
+    width: 100%;
+}
+main figure.gilbert1 img {width: 100%;}
+
+
+div.sandiego {
+    position: relative;
+}
+
+main figure.sandiego1 {
+    margin: 0;
+    width: 100%;
+}
+main figure.sandiego1 img {width: 100%;}
+
+div.bellevue {
+    position: relative;
+}
+
+main figure.bellevue1 {
+    margin: 0;
+    width: 100%;
+}
+main figure.bellevue1 img {width: 100%;}
+
+main figure.idahofalls2 {
+    margin: 0;
+    width: 100%;
+}
+
+main figure.idahofalls2 img {width: 100%;}
+
+main figure.gilbert2 {
+    margin: 0;
+    width: 100%;
+}
+
+main figure.gilbert2 img {width: 100%;}
+
+main figure.sandiego2 {
+    margin: 0;
+    width: 100%;
+}
+
+main figure.sandeigo2 img {width: 100%;}
+
+main figure.bellevue2 {
+    margin: 0;
+    width: 100%;
+}
+
+main figure.bellevue2 {width: 100%;}
+ 
 main figure.slcpic {
     margin: 0;
     width: 100%;

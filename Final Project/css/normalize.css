@@ -29,8 +29,8 @@ header h2 {margin:auto; font-size: 15px; color: navy}
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: green;
-    font-family: "Showcard Gothic", Times, serif;
+    background-color: gold;
+    font-family: "Bernard MT Condensed"
 }
 nav ul {
     list-style-type: none;
@@ -40,37 +40,37 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: dodgerblue;
     padding: .3rem 0;
     text-decoration: none;
     font-size: 20px;
     text-align: center;
 }
 
-
 nav ul li a:hover {
-    background-color: lawngreen;
-    color: red;
+    background-color: whitesmoke;
+    color: dodgerblue;
 }
 nav ul li.active a {
-    background-color: darkgreen;
+    background-color: dodgerblue;
     color: white;
 }
+nav ul.hide {display: none;}
 /*----------- MAIN --------------*/
 main {
     margin:0px;
     border:1px black solid;    
-    background-color: lawngreen;
+    background-color: antiquewhite;
     padding: 0 2%;
     min-height: 10rem;
     }
 /*----------- FOOTER --------------*/
 footer {
-    background-color: deepskyblue;
+    background-color: gold;
     padding: .5rem 2%;
     text-align: center;
     clear: both;
-}
+    margin: 0px;
 
 
 

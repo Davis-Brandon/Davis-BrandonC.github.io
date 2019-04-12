@@ -73,6 +73,18 @@ tr {
     main figure.slcpic {width: 50%; float: right;padding-left: 2%;} 
     main figure.slcpic img {width:100%;}
     
+    main figure.idahofalls2 {width: 50%; float: right;padding-left: 2%;} 
+    main figure.idahofalls2c img {width:100%;}
+    
+    main figure.gilbert2 {width: 50%; float: right;padding-left: 2%;} 
+    main figure.gilbert2 img {width:100%;}
+    
+    main figure.sandiego2 {width: 50%; float: right;padding-left: 2%;} 
+    main figure.sandiego2 img {width:100%;}
+    
+    main figure.bellevue2 {width: 50%; float: right;padding-left: 2%;} 
+    main figure.bellevue2 img {width:100%;}
+    
     div.herodiv3 section:nth-child(1){width: 33%; float: left;}
     div.herodiv3 section:nth-child(2){width: 33%; float: left;}
     div.herodiv3 section:nth-child(3){width: 33%; float: left;}
