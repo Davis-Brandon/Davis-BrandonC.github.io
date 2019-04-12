@@ -62,16 +62,19 @@
         <form method="get" action="confirmation.html">
         <fieldset>
             <legend>Personal Information</legend>
-            <label class="top">Full Name* <input type="text" name="fullname" minlegth="5" pattern="[A-Za-z].{5,}" required></label>
-            <label class="top">Email* <input type="email" name="email" placeholder="someone@something.com" required></label>
-            <label class="top">Phone Number* <input type="tel" name="phone" required></label>
-            <label class="top">Home State OR Country* <input type="text" required></label>
+            <label class="top">Full Name <input type="text" name="fullname" minlegth="5" pattern="[A-Za-z].{5,}" required></label>
+            <label class="top">Email <input type="email" name="email" placeholder="someone@something.com" required></label>
+            <label class="top">Phone Number <input type="tel" name="phone" required></label>
+            <label class="top">Home State OR Country <input type="text" required></label>
         </fieldset>
          
         <fieldset>
+            <legend>Reservation Dates</legend>
+            <label class="sbs">Arrival Date <input type="date" required></label>
+            <label class="sbs">Departure Date <input type="date" required></label> 
+        </fieldset>  
+        <fieldset>
             <legend>Room Details</legend>
-            <label class="sbs">Arrival Date <input type="date"></label>
-            <label class="sbs">Departure Date <input type="date"></label>
             <label class="sbs">Room Type: </label>
             <input name="roomtype" list="roomtypelist">
             <datalist id="roomtypelist">
@@ -91,7 +94,7 @@
             </datalist>
              <label class="sbs">Hotel Location</label>
              <select name="region">
-                 <option value="">Select Location...</option>
+                 <option value="">Select Location*...</option>
                  <option value="Idaho Falls">Idaho Falls</option>
                  <option value="Gilbert">Gilbert</option>
                  <option value="San Deigo">San Diego</option>
