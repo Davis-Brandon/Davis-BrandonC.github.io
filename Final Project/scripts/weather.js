@@ -1,5 +1,5 @@
 var weatherObject = new XMLHttpRequest();
-weatherObject.open('GET','https://api.openweathermap.org/data/2.5/weather?id=5596475&appid=62c3675ed2bc0860bc02354541901756&units=imperial',true);
+weatherObject.open('GET','//api.openweathermap.org/data/2.5/weather?id=5596475&appid=62c3675ed2bc0860bc02354541901756&units=imperial',true);
 
 weatherObject.send();
 
@@ -14,7 +14,7 @@ document.getElementById('currenthigh').innerHTML = weatherInfo.main.temp_max;
 document.getElementById('currentwind').innerHTML = weatherInfo.wind.speed;
 
 var iconcode = weatherInfo.weather[0].icon;
-var icon_path="https://openweathermap.org/img/w/"+ iconcode +".png";
+var icon_path="//openweathermap.org/img/w/"+ iconcode +".png";
 document.getElementById('weather_icon').src = icon_path;
 }
 
